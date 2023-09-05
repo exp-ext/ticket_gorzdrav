@@ -3,15 +3,15 @@
 <table border="0" cellpadding="0" cellspacing="0" align="center">
     <tr>          
         <td rowspan="2">
-            <img src="https://github.com/exp-ext/social_network/blob/main/backend/src/static/img/main.jpeg" width="400">
+            <img src="https://github.com/exp-ext/ticket_gorzdrav/blob/main/image/main.jpeg" width="400">
         </td>
         <td>
-            <img src="https://github.com/exp-ext/social_network/blob/main/backend/src/static/img/up.jpeg" width="200">
+            <img src="https://github.com/exp-ext/ticket_gorzdrav/blob/main/image/up.jpeg" width="200">
         </td>
     </tr>
      <tr>
         <td>
-            <img src="https://github.com/exp-ext/social_network/blob/main/backend/src/static/img/down.jpeg" width="200">
+            <img src="https://github.com/exp-ext/ticket_gorzdrav/blob/main/image/down.jpeg" width="200">
         </td>
     </tr>
 </table>
@@ -28,14 +28,14 @@
 - создайте виртуальное окружения и установите зависимости
 
 ```
-python -m venv venv && source venv/bin/activate && python -m pip install --upgrade pip
+python3 -m venv venv && source venv/bin/activate && python -m pip install --upgrade pip
 ```
 
 ```
-python -m pip install -r backend/requirements.txt
+python3 -m pip install -r requirements.txt
 ```
 
-- создайте файл `.env` из образца `.env.example`
+- создайте файл `.env` из образца `.env.example`, заполнив переменные своими данными.
 
 - запустите программу находясь в папке сфайлом `main.py`
 
