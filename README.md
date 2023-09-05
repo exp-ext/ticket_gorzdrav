@@ -20,8 +20,11 @@
 
 # Описание:
 
-Проверяет наличие изменений на странице Медорганизации и вслучае изменений присылает сообщения в Телеграмм.
+Проверяет наличие изменений на странице Мед.организации и вслучае изменений присылает сообщения в Телеграмм.
 
+# Зависимости:
+
+Для работы скрипта должен быть установлен Google Chrome.
 
 # Запуск:
 
@@ -33,15 +36,11 @@ git clone https://github.com/exp-ext/ticket_gorzdrav.git
 
 ### зайдите в папку и создайте виртуальное окружения
 
-Unix / Linux / macOS:
-
 ```
+# Unix / Linux / macOS:
 python3 -m venv venv && source venv/bin/activate && python -m pip install --upgrade pip
-```
 
-Windows:
-
-```
+# Windows:
 python -m venv venv && venv\Scripts\activate && python -m pip install --upgrade pip
 ```
 
@@ -53,23 +52,23 @@ python3 -m pip install -r requirements.txt
 
 ### создайте файл `.env` из образца `.env.example`, заполнив переменные своими данными по описанию
 
-### запустите программу находясь в папке сфайлом `main.py`
-
-Unix / Linux / macOS:
+### запустите программу находясь в папке с файлом `main.py`
 
 ```
+# Unix / Linux / macOS:
 python main.py
-```
 
-или в фоновом режиме
-
-```
+# или в фоновом режиме
 python main.py &
 ```
 
-Windows:
+### остановить выполнение скрипта:
 
 ```
+# Unix / Linux / macOS:
+pkill main.py
+
+# Windows:
 start /B python main.py
 ```
 
