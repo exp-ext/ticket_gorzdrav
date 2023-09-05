@@ -18,24 +18,34 @@
 
 <hr />
 
-## Описание:
+# Описание:
 
 Проверяет наличие изменений на странице Медорганизации и вслучае изменений присылает сообщения в Телеграмм.
 
 
-## Запуск:
+# Запуск:
 
-- клонируйте репозиторий
+### клонируйте репозиторий
 
 ```
 git clone https://github.com/exp-ext/ticket_gorzdrav.git
 ```
 
-- зайдите в папку, создайте виртуальное окружения и установите зависимости
+### зайдите в папку, создайте виртуальное окружения
+
+Unix / Linux / macOS:
 
 ```
 python3 -m venv venv && source venv/bin/activate && python -m pip install --upgrade pip
 ```
+
+Windows:
+
+```
+python -m venv venv && venv\Scripts\activate && python -m pip install --upgrade pip
+```
+
+### установите зависимости
 
 ```
 python3 -m pip install -r requirements.txt
@@ -45,8 +55,22 @@ python3 -m pip install -r requirements.txt
 
 - запустите программу находясь в папке сфайлом `main.py`
 
+Unix / Linux / macOS:
+
 ```
 python main.py
+```
+
+или в фоновом режиме
+
+```
+python main.py &
+```
+
+Windows:
+
+```
+start /B python main.py
 ```
 
 <hr />
