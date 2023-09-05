@@ -25,7 +25,13 @@
 
 ## Запуск:
 
-- создайте виртуальное окружения и установите зависимости
+- клонируйте репозиторий
+
+```
+git clone https://github.com/exp-ext/ticket_gorzdrav.git
+```
+
+- зайдите в папку, создайте виртуальное окружения и установите зависимости
 
 ```
 python3 -m venv venv && source venv/bin/activate && python -m pip install --upgrade pip
