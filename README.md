@@ -28,13 +28,13 @@
 
 # Запуск:
 
-### клонируйте репозиторий
+клонируйте репозиторий
 
 ```
 git clone https://github.com/exp-ext/ticket_gorzdrav.git
 ```
 
-### зайдите в папку и создайте виртуальное окружения
+зайдите в папку и создайте виртуальное окружения
 
 ```
 # Unix / Linux / macOS:
@@ -44,15 +44,15 @@ python3 -m venv venv && source venv/bin/activate && python -m pip install --upgr
 python -m venv venv && venv\Scripts\activate && python -m pip install --upgrade pip
 ```
 
-### установите зависимости
+установите зависимости
 
 ```
 python3 -m pip install -r requirements.txt
 ```
 
-### создайте файл `.env` из образца `.env.example`, заполнив переменные своими данными по описанию
+создайте файл `.env` из образца `.env.example`, заполнив переменные своими данными по описанию
 
-### запустите программу находясь в папке с файлом `main.py`
+запустите программу находясь в папке с файлом `main.py`
 
 ```
 # Unix / Linux / macOS:
@@ -62,7 +62,7 @@ python main.py
 python main.py &
 ```
 
-### остановить выполнение скрипта:
+остановить выполнение скрипта:
 
 ```
 # Unix / Linux / macOS:
@@ -74,7 +74,7 @@ start /B python main.py
 
 <hr />
 
-### Script author: Borokin Andrey
+### author: Borokin Andrey
 
 GITHUB: [exp-ext](https://github.com/exp-ext)
 
